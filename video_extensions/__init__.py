@@ -1,7 +1,7 @@
 import os.path
-from video_extensions._data import VIDEO_EXTENSIONS
+from video_extensions._data import VIDEO_EXTENSIONS, VIDEO_EXTENSIONS_LOWER
 
-__all__ = ["VIDEO_EXTENSIONS", "is_video_extension", "is_video_path"]
+__all__ = ["VIDEO_EXTENSIONS", "VIDEO_EXTENSIONS_LOWER", "is_video_extension", "is_video_path"]
 
 def is_video_extension(ext: str) -> bool:
     """
@@ -13,7 +13,7 @@ def is_video_extension(ext: str) -> bool:
         >>> is_video_extension(".txt")
         False
     """
-    return ext.lower().lstrip(".") in VIDEO_EXTENSIONS
+    return ext.lower().lstrip(".") in VIDEO_EXTENSIONS_LOWER
 
 def is_video_path(file_path: str) -> bool:
     """
@@ -38,5 +38,5 @@ def is_video_path(file_path: str) -> bool:
     else:
         ext = ext.lstrip(".")
     
-    return ext.lower() in VIDEO_EXTENSIONS
+    return ext.lower() in VIDEO_EXTENSIONS_LOWER
 

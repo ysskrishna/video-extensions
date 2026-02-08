@@ -34,3 +34,5 @@ VIDEO_EXTENSIONS = frozenset((
 	"wmv",
 	"yuv"
 ))
+
+VIDEO_EXTENSIONS_LOWER = frozenset(ext.lower() for ext in VIDEO_EXTENSIONS)
