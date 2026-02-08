@@ -60,9 +60,13 @@ is_video_path(".mov")                         # True (dotfile support)
 from video_extensions import VIDEO_EXTENSIONS
 
 # VIDEO_EXTENSIONS is a frozenset of all known video extensions
-print(len(VIDEO_EXTENSIONS))  # Number of supported extensions
+print(len(VIDEO_EXTENSIONS))  # 36
 "mp4" in VIDEO_EXTENSIONS     # True
 "txt" in VIDEO_EXTENSIONS     # False
+
+# Iterate over all extensions
+for ext in sorted(VIDEO_EXTENSIONS):
+    print(ext)
 ```
 
 ## Supported Extensions
