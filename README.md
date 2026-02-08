@@ -57,12 +57,16 @@ is_video_path(".mov")                         # True (dotfile support)
 ### Access the list of video extensions
 
 ```python
-from video_extensions import VIDEO_EXTENSIONS
+from video_extensions import VIDEO_EXTENSIONS, VIDEO_EXTENSIONS_LOWER
 
 # VIDEO_EXTENSIONS is a frozenset of all known video extensions
 print(len(VIDEO_EXTENSIONS))  # 36
 "mp4" in VIDEO_EXTENSIONS     # True
 "txt" in VIDEO_EXTENSIONS     # False
+
+# VIDEO_EXTENSIONS_LOWER contains all extensions in lowercase
+# Useful for case-insensitive lookups without calling .lower() repeatedly
+"MP4" in VIDEO_EXTENSIONS_LOWER  # True (case-insensitive)
 
 # Iterate over all extensions
 for ext in sorted(VIDEO_EXTENSIONS):

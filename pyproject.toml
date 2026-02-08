@@ -1,7 +1,7 @@
 [project]
 name = "video-extensions"
 version = "0.1.0"
-description = "Check if a file or extension is a video type, and iterate over 36+ known video file formats. Python port of video-extensions npm package."
+description = "Check if a file or extension is a video type, and iterate over 36 known video file formats including mp4, mov, avi, mkv, and more. Python port of video-extensions npm package."
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [
@@ -51,6 +51,8 @@ dev = [
 Homepage = "https://github.com/ysskrishna/video-extensions"
 Repository = "https://github.com/ysskrishna/video-extensions.git"
 Issues = "https://github.com/ysskrishna/video-extensions/issues"
+Changelog = "https://github.com/ysskrishna/video-extensions/blob/main/CHANGELOG.md"
+Discussions = "https://github.com/ysskrishna/video-extensions/discussions"
 
 [build-system]
 requires = ["hatchling"]
