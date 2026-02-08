@@ -1,7 +1,10 @@
 [project]
 name = "video-extensions"
 version = "0.1.0"
-description = "Add your description here"
+description = "Check if a file or extension is a video type, and iterate over 36+ known video file formats. Python port of video-extensions npm package."
 readme = "README.md"
 requires-python = ">=3.8"
+authors = [
+  {name = "ysskrishna", email = "sivasaikrishnassk@gmail.com"}
+]
 dependencies = []
