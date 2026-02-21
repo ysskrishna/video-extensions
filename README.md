@@ -6,7 +6,7 @@
 [![PyPI](https://img.shields.io/pypi/v/video-extensions)](https://pypi.org/project/video-extensions/)
 [![PyPI Downloads](https://static.pepy.tech/personalized-badge/video-extensions?period=total&units=INTERNATIONAL_SYSTEM&left_color=GREY&right_color=BLUE&left_text=downloads)](https://pepy.tech/projects/video-extensions)
 
-Check if a file or extension is a video type, and iterate over 36 known video file formats. Python port of [video-extensions](https://github.com/sindresorhus/video-extensions) npm package.
+Check if a file or extension is a video type, and iterate over 36 known video file formats including mp4, mov, avi, mkv, and more. Python port of [video-extensions](https://github.com/sindresorhus/video-extensions) npm package.
 
 ## Features
 
@@ -83,14 +83,6 @@ The package includes support for 36 video file extensions:
 - **Legacy**: 3gp, 3g2, asf, vob, rm, rmvb, qt
 - **Specialized**: avchd, m2v, mp2, mpe, mpv, mng, nsv, svi, yuv, wmv
 
-## Credits
-
-This package is a Python port of the [video-extensions](https://github.com/sindresorhus/video-extensions) npm package by [Sindre Sorhus](https://github.com/sindresorhus).
-
-
-## Changelog
-
-See [CHANGELOG.md](https://github.com/ysskrishna/video-extensions/blob/main/CHANGELOG.md) for a detailed list of changes and version history.
 
 ## Contributing
 
@@ -99,21 +91,30 @@ Contributions are welcome! Please read our [Contributing Guide](https://github.c
 
 ## Support
 
-If you find this library useful, please consider:
+If you find this library helpful:
 
-- ⭐ **Starring** the repository on GitHub to help others discover it.
-- 💖 **Sponsoring** to support ongoing maintenance and development.
+- ⭐ Star the repository
+- 🐛 Report issues
+- 🔀 Submit pull requests
+- 💝 [Sponsor on GitHub](https://github.com/sponsors/ysskrishna)
 
-[Become a Sponsor on GitHub](https://github.com/sponsors/ysskrishna) | [Support on Patreon](https://patreon.com/ysskrishna)
+## Credits
+
+This package is a Python port of the [video-extensions](https://github.com/sindresorhus/video-extensions) npm package by [Sindre Sorhus](https://github.com/sindresorhus).
+
 
 ## License
 
-MIT License - see [LICENSE](https://github.com/ysskrishna/video-extensions/blob/main/LICENSE) file for details.
+MIT © [Y. Siva Sai Krishna](https://github.com/ysskrishna) - see [LICENSE](https://github.com/ysskrishna/video-extensions/blob/main/LICENSE) for details.
 
+---
 
-## Author
-
-**Y. Siva Sai Krishna**
-
-- GitHub: [@ysskrishna](https://github.com/ysskrishna)
-- LinkedIn: [ysskrishna](https://linkedin.com/in/ysskrishna)
+<p align="left">
+  <a href="https://github.com/ysskrishna">Author's GitHub</a> •
+  <a href="https://linkedin.com/in/ysskrishna">Author's LinkedIn</a> •
+  <a href="https://pypi.org/project/video-extensions/">Package on PyPI</a> •
+  <a href="https://github.com/ysskrishna/video-extensions">GitHub Repository</a> •
+  <a href="https://github.com/ysskrishna/video-extensions/issues">Report Issues</a> •
+  <a href="https://github.com/ysskrishna/video-extensions/blob/main/CHANGELOG.md">Changelog</a> •
+  <a href="https://github.com/ysskrishna/video-extensions/releases">Release History</a>
+</p>
