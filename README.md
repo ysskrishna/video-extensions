@@ -2,9 +2,10 @@
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ysskrishna/video-extensions/blob/main/LICENSE)
-![Tests](https://github.com/ysskrishna/video-extensions/actions/workflows/test.yml/badge.svg)
+[![Tests](https://github.com/ysskrishna/video-extensions/actions/workflows/test.yml/badge.svg)](https://github.com/ysskrishna/video-extensions/actions/workflows/test.yml)
 [![PyPI](https://img.shields.io/pypi/v/video-extensions)](https://pypi.org/project/video-extensions/)
 [![PyPI Downloads](https://static.pepy.tech/personalized-badge/video-extensions?period=total&units=INTERNATIONAL_SYSTEM&left_color=GREY&right_color=BLUE&left_text=downloads)](https://pepy.tech/projects/video-extensions)
+[![Author site](https://img.shields.io/badge/author-ysskrishna.space-informational)](https://ysskrishna.space)
 [![Context7](https://img.shields.io/badge/Context7-docs-18181B)](https://context7.com/ysskrishna/video-extensions)
 [![Ask DeepWiki](https://img.shields.io/badge/DeepWiki-ask-18181B)](https://deepwiki.com/ysskrishna/video-extensions)
 
@@ -130,32 +131,43 @@ The package includes support for 34 video file extensions:
 Contributions are welcome! Please read our [Contributing Guide](https://github.com/ysskrishna/video-extensions/blob/main/CONTRIBUTING.md) for details on our code of conduct, development setup, and the process for submitting pull requests.
 
 
+## Credits
+
+This package is a Python port of the [video-extensions](https://github.com/sindresorhus/video-extensions) npm package by [Sindre Sorhus](https://github.com/sindresorhus).
+
+## Built and maintained by
+
+Video Extensions is built and maintained by:
+
+| | Name | GitHub | Role |
+|---|------|--------|------|
+| <img src="https://github.com/ysskrishna.png?size=120" width="60" height="60" alt="Y. Siva Sai Krishna"> | **Y. Siva Sai Krishna** | [@ysskrishna](https://github.com/ysskrishna) | Creator |
+
+## Changelog
+
+See [CHANGELOG](CHANGELOG.md) for release history.
+
 ## Support
 
 If you find this library helpful:
 
 - ⭐ Star the repository
-- 🐛 Report issues
+- 🐛 [Report issues](https://github.com/ysskrishna/video-extensions/issues)
 - 🔀 Submit pull requests
 - 💝 [Sponsor on GitHub](https://github.com/sponsors/ysskrishna)
 
-## Credits
-
-This package is a Python port of the [video-extensions](https://github.com/sindresorhus/video-extensions) npm package by [Sindre Sorhus](https://github.com/sindresorhus).
-
-
 ## License
 
-MIT © [Y. Siva Sai Krishna](https://github.com/ysskrishna) - see [LICENSE](https://github.com/ysskrishna/video-extensions/blob/main/LICENSE) for details.
+MIT © [Y. Siva Sai Krishna](https://github.com/ysskrishna) — see [LICENSE](LICENSE) for details.
 
 ---
 
 <p align="left">
   <a href="https://github.com/ysskrishna">Author's GitHub</a> •
   <a href="https://linkedin.com/in/ysskrishna">Author's LinkedIn</a> •
+  <a href="https://ysskrishna.space">Author's site</a> •
   <a href="https://pypi.org/project/video-extensions/">Package on PyPI</a> •
   <a href="https://github.com/ysskrishna/video-extensions">GitHub Repository</a> •
-  <a href="https://github.com/ysskrishna/video-extensions/issues">Report Issues</a> •
-  <a href="https://github.com/ysskrishna/video-extensions/blob/main/CHANGELOG.md">Changelog</a> •
-  <a href="https://github.com/ysskrishna/video-extensions/releases">Release History</a>
+  <a href="https://github.com/ysskrishna/video-extensions/releases">Release History</a> •
+  <a href="https://github.com/ysskrishna/video-extensions/issues">Report Issues</a>
 </p>
