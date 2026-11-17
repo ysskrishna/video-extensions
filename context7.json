@@ -1,5 +1,7 @@
 {
   "$schema": "https://context7.com/schema/context7.json",
+  "url": "https://context7.com/ysskrishna/video-extensions",
+  "public_key": "pk_VesXVq9WjBT8ecKU9XIZz",
   "projectTitle": "video-extensions",
   "description": "Zero-dependency Python library to check whether a file extension or path is a video type, with a frozenset of 34 known video extensions such as mp4, mov, avi, mkv and webm. Python port of the video-extensions npm package.",
   "excludeFolders": [
