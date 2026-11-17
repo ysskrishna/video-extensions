@@ -1,7 +1,7 @@
 [project]
 name = "video-extensions"
 version = "1.0.0"
-description = "Check if a file or extension is a video type, and iterate over 36 known video file formats including mp4, mov, avi, mkv, and more. Python port of video-extensions npm package."
+description = "Check if a file or extension is a video type, and iterate over 34 known video file formats including mp4, mov, avi, mkv, and more. Python port of video-extensions npm package."
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [

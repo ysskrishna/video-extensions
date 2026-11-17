@@ -6,11 +6,11 @@
 [![PyPI](https://img.shields.io/pypi/v/video-extensions)](https://pypi.org/project/video-extensions/)
 [![PyPI Downloads](https://static.pepy.tech/personalized-badge/video-extensions?period=total&units=INTERNATIONAL_SYSTEM&left_color=GREY&right_color=BLUE&left_text=downloads)](https://pepy.tech/projects/video-extensions)
 
-Check if a file or extension is a video type, and iterate over 36 known video file formats including mp4, mov, avi, mkv, and more. Python port of [video-extensions](https://github.com/sindresorhus/video-extensions) npm package.
+Check if a file or extension is a video type, and iterate over 34 known video file formats including mp4, mov, avi, mkv, and more. Python port of [video-extensions](https://github.com/sindresorhus/video-extensions) npm package.
 
 ## Features
 
-- Immutable collection of 36 known video file extensions  
+- Immutable collection of 34 known video file extensions  
 - Fast membership checks using `frozenset`  
 - Case-insensitive and dot-aware checks  
 - Works for both extensions and full file paths  
@@ -60,7 +60,7 @@ is_video_path(".mov")                         # True (dotfile support)
 from video_extensions import VIDEO_EXTENSIONS, VIDEO_EXTENSIONS_LOWER
 
 # VIDEO_EXTENSIONS is a frozenset of all known video extensions
-print(len(VIDEO_EXTENSIONS))  # 36
+print(len(VIDEO_EXTENSIONS))  # 34
 "mp4" in VIDEO_EXTENSIONS     # True
 "txt" in VIDEO_EXTENSIONS     # False
 
@@ -73,15 +73,54 @@ for ext in sorted(VIDEO_EXTENSIONS):
     print(ext)
 ```
 
+## API Reference
+
+Install with `pip install video-extensions` and import from `video_extensions`. Signatures and descriptions below match the source code of `video_extensions`.
+
+### `VIDEO_EXTENSIONS`
+
+Constant: `frozenset` with 34 entries.
+
+### `VIDEO_EXTENSIONS_LOWER`
+
+Constant: `frozenset` with 34 entries.
+
+### `is_video_extension(ext: str) -> bool`
+
+Return True if the given file extension is known to be a video type.
+
+**Example**
+
+```python
+from video_extensions import is_video_extension
+
+is_video_extension("mp4")  # True
+is_video_extension(".txt")  # False
+```
+
+### `is_video_path(file_path: str) -> bool`
+
+Return True if the file path has a video file extension.
+
+**Example**
+
+```python
+from video_extensions import is_video_path
+
+is_video_path("movie.mp4")  # True
+is_video_path("document.txt")  # False
+is_video_path("/path/to/video.MOV")  # True
+```
+
 ## Supported Extensions
 
-The package includes support for 36 video file extensions:
+The package includes support for 34 video file extensions:
 
 - **Common formats**: mp4, mov, avi, mkv, webm, flv, wmv, mpg, mpeg
 - **Streaming**: m3u8, m4v, m4p, ogv, ogg
 - **Professional**: mxf, drc, aaf, roq
 - **Legacy**: 3gp, 3g2, asf, vob, rm, rmvb, qt
-- **Specialized**: avchd, m2v, mp2, mpe, mpv, mng, nsv, svi, yuv, wmv
+- **Specialized**: avchd, m2v, mp2, mpe, mpv, mng, nsv, svi, yuv
 
 
 ## Contributing
