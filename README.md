@@ -5,6 +5,8 @@
 ![Tests](https://github.com/ysskrishna/video-extensions/actions/workflows/test.yml/badge.svg)
 [![PyPI](https://img.shields.io/pypi/v/video-extensions)](https://pypi.org/project/video-extensions/)
 [![PyPI Downloads](https://static.pepy.tech/personalized-badge/video-extensions?period=total&units=INTERNATIONAL_SYSTEM&left_color=GREY&right_color=BLUE&left_text=downloads)](https://pepy.tech/projects/video-extensions)
+[![Context7](https://img.shields.io/badge/Context7-docs-18181B)](https://context7.com/ysskrishna/video-extensions)
+[![Ask DeepWiki](https://img.shields.io/badge/DeepWiki-ask-18181B)](https://deepwiki.com/ysskrishna/video-extensions)
 
 Check if a file or extension is a video type, and iterate over 34 known video file formats including mp4, mov, avi, mkv, and more. Python port of [video-extensions](https://github.com/sindresorhus/video-extensions) npm package.
 
